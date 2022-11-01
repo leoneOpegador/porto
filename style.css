@@ -1,0 +1,93 @@
+h1{
+    color: rgb(242, 242, 242);
+}
+
+.header * {
+    border: solid;
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pao{
+    background-image: linear-gradient(to right, rgb(42, 245, 52),rgb(90, 241, 73),rgb(135, 243, 141),rgb(198, 243, 198));
+    display: flex;
+    justify-content: space-between;
+}
+.pao2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pao3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pao4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pao5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+p,h2{
+    text-align: center;
+}
+
+a:link{
+    color: white;
+
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover
+
+
+
+
